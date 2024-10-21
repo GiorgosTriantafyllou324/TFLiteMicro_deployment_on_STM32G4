@@ -1,0 +1,5 @@
+../tflite/tensorflow/lite/micro/kernels/leaky_relu.cc:48:7:void* tflite::LeakyReluInit(TfLiteContext*, const char*, size_t)	8	static
+../tflite/tensorflow/lite/micro/kernels/leaky_relu.cc:90:18:TFLMRegistration tflite::Register_LEAKY_RELU()	16	static
+../tflite/tensorflow/lite/micro/kernels/leaky_relu.cc:30:6:void tflite::QuantizeLeakyRelu(const tflite::LeakyReluOpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with T = signed char]	112	static
+../tflite/tensorflow/lite/micro/kernels/leaky_relu.cc:30:6:void tflite::QuantizeLeakyRelu(const tflite::LeakyReluOpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with T = short int]	104	static
+../tflite/tensorflow/lite/micro/kernels/leaky_relu.cc:53:14:TfLiteStatus tflite::LeakyReluEval(TfLiteContext*, TfLiteNode*)	88	static

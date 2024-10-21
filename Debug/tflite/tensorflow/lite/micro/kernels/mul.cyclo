@@ -1,0 +1,2 @@
+../tflite/tensorflow/lite/micro/kernels/mul.cc:31:14:TfLiteStatus tflite::MulEval(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/mul.cc:64:18:TFLMRegistration tflite::Register_MUL()	1

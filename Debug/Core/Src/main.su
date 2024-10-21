@@ -1,0 +1,15 @@
+../Core/Src/main.cpp:142:37:void __tcf_0()	0	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h:51:27:const TFLMRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 6]	0	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h:45:7:virtual tflite::MicroMutableOpResolver<6>::~MicroMutableOpResolver()	0	static
+../Core/Src/main.cpp:172:110:void __tcf_2()	0	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h:74:36:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 6]	8	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h:63:27:const TFLMRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 6]	16	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h:665:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, const TFLMRegistration&, tflite::TfLiteBridgeBuiltinParseFunction) [with unsigned int tOpCount = 6]	32	static
+../Core/Src/main.cpp:161:44:void __tcf_1()	0	static
+../Core/Src/main.cpp:285:6:void SystemClock_Config()	88	static,ignoring_inline_asm
+../Core/Src/main.cpp:108:5:int main()	272	static,ignoring_inline_asm
+../Core/Src/main.cpp:449:17:void DebugLog(const char*, va_list)	112	static
+../Core/Src/main.cpp:460:6:void softmax(float*, int)	24	static
+../Core/Src/main.cpp:477:13:const char* GetClassName(uint8_t)	0	static
+../Core/Src/main.cpp:503:6:void HAL_UART_RxCpltCallback(UART_HandleTypeDef*)	8	static
+../Core/Src/main.cpp:524:6:void Error_Handler()	0	static,ignoring_inline_asm

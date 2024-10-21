@@ -1,0 +1,17 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:147:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:152:14:TfLiteStatus tflite::{anonymous}::MaxPrepare(TfLiteContext*, TfLiteNode*)	2
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:159:14:TfLiteStatus tflite::{anonymous}::AveragePrepare(TfLiteContext*, TfLiteNode*)	10
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:73:6:void tflite::{anonymous}::AverageEvalQuantized(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	12
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:198:14:TfLiteStatus tflite::{anonymous}::AverageEval(TfLiteContext*, TfLiteNode*)	5
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:243:14:TfLiteStatus tflite::{anonymous}::AverageEvalInt16(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:225:14:TfLiteStatus tflite::{anonymous}::AverageEvalInt8(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:109:14:TfLiteStatus tflite::{anonymous}::MaxEvalQuantized(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	12
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:286:14:TfLiteStatus tflite::{anonymous}::MaxEvalInt8(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:303:14:TfLiteStatus tflite::{anonymous}::MaxEvalInt16(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:260:14:TfLiteStatus tflite::{anonymous}::MaxEval(TfLiteContext*, TfLiteNode*)	5
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:322:18:TFLMRegistration tflite::Register_AVERAGE_POOL_2D_INT8()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:326:18:TFLMRegistration tflite::Register_AVERAGE_POOL_2D_INT16()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:330:18:TFLMRegistration tflite::Register_AVERAGE_POOL_2D()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:334:18:TFLMRegistration tflite::Register_MAX_POOL_2D_INT8()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:338:18:TFLMRegistration tflite::Register_MAX_POOL_2D_INT16()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:342:18:TFLMRegistration tflite::Register_MAX_POOL_2D()	1

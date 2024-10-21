@@ -1,0 +1,5 @@
+../tflite/tensorflow/lite/micro/kernels/broadcast_args.cc:31:14:TfLiteStatus tflite::{anonymous}::BroadcastArgsPrepare(TfLiteContext*, TfLiteNode*)	12
+../tflite/tensorflow/lite/micro/kernels/broadcast_args.cc:86:18:TFLMRegistration tflite::Register_BROADCAST_ARGS()	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/broadcast_args.h:25:6:void tflite::reference_ops::BroadcastArgs(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = long int]	16
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/broadcast_args.h:25:6:void tflite::reference_ops::BroadcastArgs(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = long long int]	16
+../tflite/tensorflow/lite/micro/kernels/broadcast_args.cc:62:14:TfLiteStatus tflite::{anonymous}::BroadcastArgsEval(TfLiteContext*, TfLiteNode*)	5

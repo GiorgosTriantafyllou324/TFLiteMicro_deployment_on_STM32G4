@@ -1,0 +1,2 @@
+../tflite/third_party/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s16.c:36:13:scale_q31_to_q15_and_clamp	3
+../tflite/third_party/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s16.c:73:21:arm_avgpool_s16	12

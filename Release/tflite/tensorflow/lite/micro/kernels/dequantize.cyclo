@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/dequantize.cc:31:7:void* tflite::DequantizeInit(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/dequantize.cc:37:14:TfLiteStatus tflite::DequantizeEval(TfLiteContext*, TfLiteNode*)	62
+../tflite/tensorflow/lite/micro/kernels/dequantize.cc:79:18:TFLMRegistration tflite::Register_DEQUANTIZE()	1

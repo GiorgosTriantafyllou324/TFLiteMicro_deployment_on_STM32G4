@@ -1,0 +1,5 @@
+../tflite/tensorflow/lite/micro/kernels/transpose_conv.cc:144:7:void* tflite::{anonymous}::TransposeConvInit(TfLiteContext*, const char*, size_t)	8	static
+../tflite/tensorflow/lite/micro/kernels/transpose_conv.cc:150:14:TfLiteStatus tflite::{anonymous}::TransposeConvPrepare(TfLiteContext*, TfLiteNode*)	208	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/integer_ops/transpose_conv.h:126:13:void tflite::reference_integer_ops::TransposeConv(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const Scalar*, const tflite::RuntimeShape&, int16_t*, const tflite::RuntimeShape&, int8_t*, Scalar*) [with Scalar = long long int]	152	static
+../tflite/tensorflow/lite/micro/kernels/transpose_conv.cc:247:14:TfLiteStatus tflite::{anonymous}::TransposeConvEval(TfLiteContext*, TfLiteNode*)	704	static
+../tflite/tensorflow/lite/micro/kernels/transpose_conv.cc:349:18:TFLMRegistration tflite::Register_TRANSPOSE_CONV()	16	static

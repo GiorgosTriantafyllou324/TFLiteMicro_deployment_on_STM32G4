@@ -1,0 +1,8 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:172:18:TFLMRegistration tflite::Register_MUL()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:176:18:TFLMRegistration tflite::Register_MUL_INT8()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:180:18:TFLMRegistration tflite::Register_MUL_INT16()	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/common.h:1082:22:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 6]	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:32:6:void tflite::{anonymous}::EvalQuantized(TfLiteContext*, TfLiteNode*, const tflite::OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	315
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:154:14:TfLiteStatus tflite::EvalInt16(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:136:14:TfLiteStatus tflite::EvalInt8(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:99:14:TfLiteStatus tflite::Eval(TfLiteContext*, TfLiteNode*)	5

@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/assign_variable.cc:77:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/assign_variable.cc:38:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	17
+../tflite/tensorflow/lite/micro/kernels/assign_variable.cc:103:18:TFLMRegistration tflite::Register_ASSIGN_VARIABLE()	1

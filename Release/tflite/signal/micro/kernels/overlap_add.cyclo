@@ -1,0 +1,21 @@
+../tflite/signal/micro/kernels/overlap_add.cc:123:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*) [with T = short int]	6
+../tflite/signal/micro/kernels/overlap_add.cc:123:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*) [with T = float]	6
+../tflite/signal/micro/kernels/overlap_add.cc:184:14:TfLiteStatus tflite::{anonymous}::EvalAll(TfLiteContext*, TfLiteNode*)	3
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = unsigned char]	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = short unsigned int]	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long unsigned int]	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long long unsigned int]	1
+../tflite/signal/micro/kernels/overlap_add.cc:58:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t) [with T = short int]	2
+../tflite/signal/micro/kernels/overlap_add.cc:58:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t) [with T = float]	2
+../tflite/signal/micro/kernels/overlap_add.cc:76:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*) [with T = short int; TfLiteType TfLiteTypeEnum = kTfLiteInt16]	15
+../tflite/signal/micro/kernels/overlap_add.cc:76:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*) [with T = short int; TfLiteType TfLiteTypeEnum = kTfLiteInt16]	3
+../tflite/signal/micro/kernels/overlap_add.cc:76:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*) [with T = float; TfLiteType TfLiteTypeEnum = kTfLiteFloat32]	15
+../tflite/signal/micro/kernels/overlap_add.cc:76:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*) [with T = float; TfLiteType TfLiteTypeEnum = kTfLiteFloat32]	3
+../tflite/signal/micro/kernels/overlap_add.cc:147:6:void tflite::{anonymous}::Reset(TfLiteContext*, void*) [with T = short int]	3
+../tflite/signal/micro/kernels/overlap_add.cc:147:6:void tflite::{anonymous}::Reset(TfLiteContext*, void*) [with T = float]	3
+../tflite/signal/micro/kernels/overlap_add.cc:200:6:void tflite::{anonymous}::ResetAll(TfLiteContext*, void*)	7
+../tflite/signal/micro/kernels/overlap_add.cc:168:14:TfLiteStatus tflite::{anonymous}::PrepareAll(TfLiteContext*, TfLiteNode*)	7
+../tflite/signal/micro/kernels/overlap_add.cc:151:7:void* tflite::{anonymous}::InitAll(TfLiteContext*, const char*, size_t)	65
+../tflite/signal/micro/kernels/overlap_add.cc:220:19:TFLMRegistration* tflite::tflm_signal::Register_OVERLAP_ADD()	3
+../tflite/signal/micro/kernels/overlap_add.cc:226:19:TFLMRegistration* tflite::tflm_signal::Register_OVERLAP_ADD_FLOAT()	3
+../tflite/signal/micro/kernels/overlap_add.cc:233:19:TFLMRegistration* tflite::tflm_signal::Register_OVERLAP_ADD_INT16()	3

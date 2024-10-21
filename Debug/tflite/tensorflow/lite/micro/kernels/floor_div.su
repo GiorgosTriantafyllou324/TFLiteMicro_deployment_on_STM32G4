@@ -1,0 +1,5 @@
+../tflite/tensorflow/lite/micro/kernels/floor_div.cc:60:7:void* tflite::{anonymous}::FloorDivInit(TfLiteContext*, const char*, size_t)	0	static
+../tflite/tensorflow/lite/micro/kernels/floor_div.cc:64:14:TfLiteStatus tflite::{anonymous}::FloorDivPrepare(TfLiteContext*, TfLiteNode*)	48	static
+../tflite/tensorflow/lite/micro/kernels/floor_div.cc:126:18:TFLMRegistration tflite::Register_FLOOR_DIV()	16	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/common.h:1082:22:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	8	static
+../tflite/tensorflow/lite/micro/kernels/floor_div.cc:104:14:TfLiteStatus tflite::{anonymous}::FloorDivEval(TfLiteContext*, TfLiteNode*)	472	static

@@ -1,0 +1,10 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:38:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:134:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt8(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:151:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt8_Int16(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:168:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt16(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:44:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	41
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:78:14:TfLiteStatus tflite::{anonymous}::SoftmaxEval(TfLiteContext*, TfLiteNode*)	49
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:193:18:TFLMRegistration tflite::Register_SOFTMAX()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:197:18:TFLMRegistration tflite::Register_SOFTMAX_INT8()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:201:18:TFLMRegistration tflite::Register_SOFTMAX_INT8_INT16()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:205:18:TFLMRegistration tflite::Register_SOFTMAX_INT16()	1

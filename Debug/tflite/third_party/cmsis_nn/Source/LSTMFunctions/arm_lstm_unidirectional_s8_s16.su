@@ -1,0 +1,1 @@
+../tflite/third_party/cmsis_nn/Source/LSTMFunctions/arm_lstm_unidirectional_s8_s16.c:59:21:arm_lstm_unidirectional_s16_s8	152	static

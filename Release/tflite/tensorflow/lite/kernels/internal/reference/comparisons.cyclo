@@ -1,0 +1,2 @@
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/common.h:1082:22:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	1
+../tflite/tensorflow/lite/kernels/internal/reference/comparisons.cc:21:33:tflite::reference_ops::BroadcastComparison4DSlowCommon tflite::reference_ops::BroadcastComparison4DSlowPreprocess(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	38

@@ -1,0 +1,8 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:152:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:288:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	17
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:469:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	4
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/integer_ops/transpose_conv.h:126:13:void tflite::reference_integer_ops::TransposeConv(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const Scalar*, const tflite::RuntimeShape&, int16_t*, const tflite::RuntimeShape&, int8_t*, Scalar*) [with Scalar = long long int]	102
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:380:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	56
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:157:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	62
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:494:18:TFLMRegistration tflite::Register_TRANSPOSE_CONV()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:498:18:TFLMRegistration tflite::Register_TRANSPOSE_CONV_INT8()	1

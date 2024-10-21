@@ -1,0 +1,4 @@
+../tflite/signal/micro/kernels/energy.cc:86:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	24	static
+../tflite/signal/micro/kernels/energy.cc:45:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	32	static
+../tflite/signal/micro/kernels/energy.cc:63:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+../tflite/signal/micro/kernels/energy.cc:106:19:TFLMRegistration* tflite::tflm_signal::Register_ENERGY()	24	static

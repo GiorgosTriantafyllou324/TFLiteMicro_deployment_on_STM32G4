@@ -1,0 +1,8 @@
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/comparisons.h:37:13:bool tflite::reference_ops::GreaterFn(T, T) [with T = float]	0	static
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/comparisons.h:45:13:bool tflite::reference_ops::LessFn(T, T) [with T = float]	0	static
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/comparisons.h:37:13:bool tflite::reference_ops::GreaterFn(T, T) [with T = signed char]	0	static
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/comparisons.h:45:13:bool tflite::reference_ops::LessFn(T, T) [with T = signed char]	0	static
+../tflite/tensorflow/lite/micro/kernels/arg_min_max.cc:100:14:TfLiteStatus tflite::{anonymous}::ArgMinEval(TfLiteContext*, TfLiteNode*)	176	static
+../tflite/tensorflow/lite/micro/kernels/arg_min_max.cc:104:14:TfLiteStatus tflite::{anonymous}::ArgMaxEval(TfLiteContext*, TfLiteNode*)	176	static
+../tflite/tensorflow/lite/micro/kernels/arg_min_max.cc:110:18:TFLMRegistration tflite::Register_ARG_MAX()	16	static
+../tflite/tensorflow/lite/micro/kernels/arg_min_max.cc:114:18:TFLMRegistration tflite::Register_ARG_MIN()	16	static

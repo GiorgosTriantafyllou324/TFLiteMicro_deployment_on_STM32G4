@@ -1,0 +1,1 @@
+../tflite/third_party/cmsis_nn/Source/BasicMathFunctions/arm_elementwise_mul_s8.c:50:21:arm_elementwise_mul_s8	696	static,ignoring_inline_asm

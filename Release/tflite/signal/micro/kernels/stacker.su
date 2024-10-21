@@ -1,0 +1,5 @@
+../tflite/signal/micro/kernels/stacker.cc:160:6:void tflite::{anonymous}::Reset(TfLiteContext*, void*)	8	static
+../tflite/signal/micro/kernels/stacker.cc:121:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	32	static
+../tflite/signal/micro/kernels/stacker.cc:55:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	48	static
+../tflite/signal/micro/kernels/stacker.cc:91:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+../tflite/signal/micro/kernels/stacker.cc:169:19:TFLMRegistration* tflite::tflm_signal::Register_STACKER()	24	static

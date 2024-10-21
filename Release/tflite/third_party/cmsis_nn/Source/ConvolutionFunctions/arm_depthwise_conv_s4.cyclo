@@ -1,0 +1,2 @@
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s4.c:43:13:depthwise_conv_s4_generic	24
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s4.c:225:21:arm_depthwise_conv_s4	1

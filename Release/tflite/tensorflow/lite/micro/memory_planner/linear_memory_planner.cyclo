@@ -1,0 +1,11 @@
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/micro/memory_planner/micro_memory_planner.h:62:24:virtual TfLiteStatus tflite::MicroMemoryPlanner::AddBuffer(int, int, int, int)	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/micro/memory_planner/micro_memory_planner.h:79:24:virtual TfLiteStatus tflite::MicroMemoryPlanner::Init(unsigned char*, int)	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/micro/memory_planner/micro_memory_planner.h:88:16:virtual void tflite::MicroMemoryPlanner::PrintMemoryPlan()	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.h:40:8:virtual bool tflite::LinearMemoryPlanner::preserves_all_tensors() const	1
+../tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc:24:1:tflite::LinearMemoryPlanner::~LinearMemoryPlanner()	1
+../tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc:38:8:virtual size_t tflite::LinearMemoryPlanner::GetMaximumMemorySize()	1
+../tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc:40:5:virtual int tflite::LinearMemoryPlanner::GetBufferCount()	1
+../tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc:24:1:virtual tflite::LinearMemoryPlanner::~LinearMemoryPlanner()	1
+../tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc:26:14:virtual TfLiteStatus tflite::LinearMemoryPlanner::AddBuffer(int, int, int)	2
+../tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc:42:14:virtual TfLiteStatus tflite::LinearMemoryPlanner::GetOffsetForBuffer(int, int*)	3
+../tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc:22:1:tflite::LinearMemoryPlanner::LinearMemoryPlanner()	1

@@ -1,0 +1,9 @@
+../tflite/tensorflow/lite/micro/kernels/batch_matmul.cc:282:7:void* tflite::{anonymous}::BatchMatMulInit(TfLiteContext*, const char*, size_t)	8	static
+../tflite/tensorflow/lite/micro/kernels/batch_matmul.cc:156:19:TfLiteEvalTensor* tflite::{anonymous}::AllocInitTransposeTensorFromTfLiteTensor(TfLiteContext*, const TfLiteTensor&)	48	static
+../tflite/tensorflow/lite/micro/kernels/batch_matmul.cc:292:14:TfLiteStatus tflite::{anonymous}::BatchMatMulPrepare(TfLiteContext*, TfLiteNode*)	224	static
+../tflite/tensorflow/lite/micro/kernels/batch_matmul.cc:553:18:TFLMRegistration tflite::Register_BATCH_MATMUL()	16	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = long int]	64	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = signed char]	384	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = short int]	64	static
+../tflite/tensorflow/lite/micro/kernels/batch_matmul.cc:255:14:TfLiteStatus tflite::{anonymous}::TransposeRowsColumns(const TfLiteEvalTensor&, TfLiteEvalTensor*)	304	static
+../tflite/tensorflow/lite/micro/kernels/batch_matmul.cc:467:14:TfLiteStatus tflite::{anonymous}::BatchMatMulEval(TfLiteContext*, TfLiteNode*)	632	static

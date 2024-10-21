@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/split_v.cc:88:14:TfLiteStatus tflite::{anonymous}::SplitVEval(TfLiteContext*, TfLiteNode*)	94
+../tflite/tensorflow/lite/micro/kernels/split_v.cc:74:14:TfLiteStatus tflite::{anonymous}::SplitVPrepare(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/split_v.cc:123:18:TFLMRegistration tflite::Register_SPLIT_V()	1

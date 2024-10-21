@@ -1,0 +1,2 @@
+../tflite/signal/micro/kernels/fft_auto_scale_kernel.cc:35:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	3
+../tflite/signal/micro/kernels/fft_auto_scale_kernel.cc:57:19:TFLMRegistration* tflite::tflm_signal::Register_FFT_AUTO_SCALE()	3

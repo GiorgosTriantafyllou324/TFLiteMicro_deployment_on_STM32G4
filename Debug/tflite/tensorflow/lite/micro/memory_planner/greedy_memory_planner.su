@@ -1,0 +1,16 @@
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h:113:8:virtual bool tflite::GreedyMemoryPlanner::preserves_all_tensors() const	0	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:62:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::Init(unsigned char*, int)	4	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:88:1:tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()	0	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:395:5:virtual int tflite::GreedyMemoryPlanner::GetBufferCount()	0	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:88:1:virtual tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()	8	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:92:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::AddBuffer(int, int, int)	16	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:108:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::AddBuffer(int, int, int, int)	40	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:42:6:void tflite::ReverseSortInPlace(int*, int*, int)	16	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:60:1:tflite::GreedyMemoryPlanner::GreedyMemoryPlanner()	0	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:119:6:bool tflite::GreedyMemoryPlanner::DoesEntryOverlapInTime(const tflite::GreedyMemoryPlanner::ListEntry*, int, int) const	4	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:134:1:tflite::GreedyMemoryPlanner::ListEntry* tflite::GreedyMemoryPlanner::NextSimultaneouslyActiveBuffer(const tflite::GreedyMemoryPlanner::ListEntry*, int, int)	12	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:162:6:void tflite::GreedyMemoryPlanner::CalculateOffsetsIfNeeded()	48	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:312:8:virtual size_t tflite::GreedyMemoryPlanner::GetMaximumMemorySize()	16	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:334:6:virtual void tflite::GreedyMemoryPlanner::PrintMemoryPlan()	152	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:397:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::GetOffsetForBuffer(int, int*)	16	static
+../tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc:409:6:bool tflite::GreedyMemoryPlanner::DoAnyBuffersOverlap()	80	static

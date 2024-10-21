@@ -1,0 +1,9 @@
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:142:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = signed char]	96	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:142:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = short int]	96	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:34:14:TfLiteStatus tflite::PrepareSimple(TfLiteContext*, TfLiteNode*, int32_t*, int*)	64	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:67:14:TfLiteStatus tflite::PrepareMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	64	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:95:14:TfLiteStatus tflite::PrepareMeanOrSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	72	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:129:6:void tflite::ResolveAxis(const int*, int, tflite::MeanParams*)	4	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:178:14:TfLiteStatus tflite::EvalMeanHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	240	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:239:14:TfLiteStatus tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	96	static
+../tflite/tensorflow/lite/micro/kernels/reduce_common.cc:293:14:TfLiteStatus tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	112	static

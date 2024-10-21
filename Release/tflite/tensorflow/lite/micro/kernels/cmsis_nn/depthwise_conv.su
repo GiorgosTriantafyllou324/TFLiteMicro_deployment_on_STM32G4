@@ -1,0 +1,14 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:53:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:58:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	288	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:326:6:void tflite::{anonymous}::EvalQuantizedPerChannel16x8(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	304	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:447:14:TfLiteStatus tflite::{anonymous}::EvalInt16x8(TfLiteContext*, TfLiteNode*)	48	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:253:6:void tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	304	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:423:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	56	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:289:6:void tflite::{anonymous}::EvalQuantizedPerChannelInt4(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	304	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:471:14:TfLiteStatus tflite::{anonymous}::EvalInt4(TfLiteContext*, TfLiteNode*)	56	static
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h:25:13:void tflite::reference_ops::DepthwiseConv(const tflite::DepthwiseParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	208	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:359:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	240	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:497:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D()	16	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:501:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT8()	16	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:505:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT16()	16	static
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:509:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT4()	16	static

@@ -1,0 +1,6 @@
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c:42:25:arm_depthwise_conv_fast_s16_get_buffer_size_mve	16	static
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c:49:25:arm_depthwise_conv_fast_s16_get_buffer_size_dsp	16	static
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c:55:9:arm_depthwise_conv_fast_s16_get_buffer_size	16	static
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c:70:9:arm_depthwise_conv_wrapper_s16_get_buffer_size	32	static
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c:87:9:arm_depthwise_conv_wrapper_s16_get_buffer_size_mve	32	static
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c:104:9:arm_depthwise_conv_wrapper_s16_get_buffer_size_dsp	32	static

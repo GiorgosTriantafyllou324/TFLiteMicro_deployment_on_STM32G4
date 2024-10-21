@@ -1,0 +1,18 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:283:7:void* tflite::InitAdd(TfLiteContext*, const char*, size_t)	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/integer_ops/add.h:28:13:void tflite::reference_integer_ops::CheckArithmeticParams(const tflite::ArithmeticParams&)	4
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:288:14:TfLiteStatus tflite::PrepareAdd(TfLiteContext*, TfLiteNode*)	19
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/add.h:270:13:void tflite::reference_ops::BroadcastAddRecursiveDimensions(int, size_t*, size_t*, size_t*, size_t*, size_t*, size_t*, T, T, const T*, const T*, T*) [with T = long int]	36
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/add.h:270:13:void tflite::reference_ops::BroadcastAddRecursiveDimensions(int, size_t*, size_t*, size_t*, size_t*, size_t*, size_t*, T, T, const T*, const T*, T*) [with T = float]	36
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/integer_ops/add.h:180:15:int8_t tflite::reference_integer_ops::AddFunc(int8_t, int8_t, const tflite::ArithmeticParams&)	18
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/integer_ops/add.h:75:13:void tflite::reference_integer_ops::BroadcastAddRecursiveDimensions(const tflite::ArithmeticParams&, int, size_t*, size_t*, size_t*, size_t*, size_t*, size_t*, const T*, const T*, T*, void (*)(const tflite::ArithmeticParams&), T (*)(T, T, const tflite::ArithmeticParams&)) [with T = signed char]	96
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:399:18:TFLMRegistration tflite::Register_ADD()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:403:18:TFLMRegistration tflite::Register_ADD_INT8()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:407:18:TFLMRegistration tflite::Register_ADD_INT16()	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/common.h:46:6:bool tflite::ReduceDimensionsForBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, size_t*, size_t*, size_t*) [with int MAX_DIM = 6]	44
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:201:14:TfLiteStatus tflite::{anonymous}::EvalAdd(TfLiteContext*, TfLiteNode*, TfLiteAddParams*, const tflite::{anonymous}::OpData*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	38
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:124:14:TfLiteStatus tflite::{anonymous}::EvalAddQuantizedInt8(TfLiteContext*, TfLiteNode*, TfLiteAddParams*, const tflite::{anonymous}::OpData*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	170
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:359:14:TfLiteStatus tflite::EvalAddInt8(TfLiteContext*, TfLiteNode*)	2
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/add.h:368:13:void tflite::reference_ops::BroadcastAddRecursiveDimensions(const tflite::ArithmeticParams&, int, size_t*, size_t*, size_t*, size_t*, size_t*, size_t*, const T*, const T*, T*) [with T = short int]	44
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:163:14:TfLiteStatus tflite::{anonymous}::EvalAddQuantizedInt16(TfLiteContext*, TfLiteNode*, TfLiteAddParams*, const tflite::{anonymous}::OpData*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	170
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:379:14:TfLiteStatus tflite::EvalAddInt16(TfLiteContext*, TfLiteNode*)	2
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/add.cc:331:14:TfLiteStatus tflite::EvalAdd(TfLiteContext*, TfLiteNode*)	4

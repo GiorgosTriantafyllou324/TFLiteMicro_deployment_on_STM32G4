@@ -1,0 +1,22 @@
+../tflite/signal/src/circular_buffer.cc:88:6:0(tflite::tflm_signal::CircularBuffer*, const int16_t*, size_t)	40	static
+../tflite/signal/src/circular_buffer.cc:27:6:void tflite::tflm_signal::CircularBufferReset(tflite::tflm_signal::CircularBuffer*)	4	static
+../tflite/signal/src/circular_buffer.cc:35:8:size_t tflite::tflm_signal::CircularBufferGetNeededMemory(size_t)	0	static
+../tflite/signal/src/circular_buffer.cc:39:17:tflite::tflm_signal::CircularBuffer* tflite::tflm_signal::CircularBufferInit(size_t, void*, size_t)	8	static
+../tflite/signal/src/circular_buffer.cc:49:8:size_t tflite::tflm_signal::CircularBufferCapacity(const tflite::tflm_signal::CircularBuffer*)	0	static
+../tflite/signal/src/circular_buffer.cc:53:6:bool tflite::tflm_signal::CircularBufferFull(const tflite::tflm_signal::CircularBuffer*)	0	static
+../tflite/signal/src/circular_buffer.cc:57:6:bool tflite::tflm_signal::CircularBufferEmpty(const tflite::tflm_signal::CircularBuffer*)	0	static
+../tflite/signal/src/circular_buffer.cc:61:8:size_t tflite::tflm_signal::CircularBufferAvailable(const tflite::tflm_signal::CircularBuffer*)	0	static
+../tflite/signal/src/circular_buffer.cc:74:8:size_t tflite::tflm_signal::CircularBufferCanWrite(const tflite::tflm_signal::CircularBuffer*)	0	static
+../tflite/signal/src/circular_buffer.cc:78:6:void tflite::tflm_signal::CircularBufferAdd(tflite::tflm_signal::CircularBuffer*, int16_t)	8	static
+../tflite/signal/src/circular_buffer.cc:88:6:void tflite::tflm_signal::CircularBufferWrite(tflite::tflm_signal::CircularBuffer*, const int16_t*, size_t)	40	static
+../tflite/signal/src/circular_buffer.cc:117:6:void tflite::tflm_signal::CircularBufferWriteZeros(tflite::tflm_signal::CircularBuffer*, size_t)	32	static
+../tflite/signal/src/circular_buffer.cc:145:10:int16_t* tflite::tflm_signal::CircularBufferReserveForWrite(tflite::tflm_signal::CircularBuffer*, size_t)	8	static
+../tflite/signal/src/circular_buffer.cc:157:6:void tflite::tflm_signal::CircularBufferExtend(tflite::tflm_signal::CircularBuffer*, size_t, int32_t)	56	static
+../tflite/signal/src/circular_buffer.cc:186:9:int16_t tflite::tflm_signal::CircularBufferRemove(tflite::tflm_signal::CircularBuffer*)	8	static
+../tflite/signal/src/circular_buffer.cc:198:9:int16_t tflite::tflm_signal::CircularBufferPeek(const tflite::tflm_signal::CircularBuffer*, size_t)	8	static
+../tflite/signal/src/circular_buffer.cc:208:6:void tflite::tflm_signal::CircularBufferRewind(tflite::tflm_signal::CircularBuffer*, size_t)	8	static
+../tflite/signal/src/circular_buffer.cc:219:16:const int16_t* tflite::tflm_signal::CircularBufferPeekDirect(const tflite::tflm_signal::CircularBuffer*, size_t)	8	static
+../tflite/signal/src/circular_buffer.cc:229:16:const int16_t* tflite::tflm_signal::CircularBufferPeekMax(const tflite::tflm_signal::CircularBuffer*, size_t*)	8	static
+../tflite/signal/src/circular_buffer.cc:241:6:void tflite::tflm_signal::CircularBufferGet(tflite::tflm_signal::CircularBuffer*, size_t, int16_t*)	32	static
+../tflite/signal/src/circular_buffer.cc:260:6:void tflite::tflm_signal::CircularBufferDiscard(tflite::tflm_signal::CircularBuffer*, size_t)	16	static
+../tflite/signal/src/circular_buffer.cc:272:6:void tflite::tflm_signal::CircularBufferShift(tflite::tflm_signal::CircularBuffer*, int)	8	static

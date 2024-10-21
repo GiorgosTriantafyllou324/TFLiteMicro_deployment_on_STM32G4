@@ -1,0 +1,5 @@
+../tflite/signal/micro/kernels/filter_bank_spectral_subtraction.cc:161:6:void tflite::{anonymous}::Reset(TfLiteContext*, void*)	1
+../tflite/signal/micro/kernels/filter_bank_spectral_subtraction.cc:136:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	3
+../tflite/signal/micro/kernels/filter_bank_spectral_subtraction.cc:59:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	3
+../tflite/signal/micro/kernels/filter_bank_spectral_subtraction.cc:99:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	14
+../tflite/signal/micro/kernels/filter_bank_spectral_subtraction.cc:169:19:TFLMRegistration* tflite::tflm_signal::Register_FILTER_BANK_SPECTRAL_SUBTRACTION()	3

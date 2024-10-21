@@ -1,0 +1,5 @@
+../tflite/tensorflow/lite/micro/kernels/transpose.cc:49:14:TfLiteStatus tflite::{anonymous}::TransposePrepare(TfLiteContext*, TfLiteNode*)	56	static
+../tflite/tensorflow/lite/micro/kernels/transpose.cc:119:18:TFLMRegistration tflite::Register_TRANSPOSE()	16	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = long int]	64	static
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = signed char]	384	static
+../tflite/tensorflow/lite/micro/kernels/transpose.cc:75:14:TfLiteStatus tflite::{anonymous}::TransposeEval(TfLiteContext*, TfLiteNode*)	232	static

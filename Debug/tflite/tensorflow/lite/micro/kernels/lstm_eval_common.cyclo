@@ -1,0 +1,14 @@
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:26:14:tflite::LstmSizeInfo tflite::CreateLstmSizeInfo(bool, const TfLiteIntArray*, const TfLiteIntArray*)	2
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:40:14:TfLiteStatus tflite::ValidateWeightTensorSize(TfLiteContext*, const TfLiteTensor*, int, int)	4
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:49:14:TfLiteStatus tflite::ValidateBiasTensorSize(TfLiteContext*, const TfLiteTensor*, int)	3
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:58:14:TfLiteStatus tflite::ValidateTensorSize(TfLiteContext*, const tflite::LstmTensors&, const tflite::LstmSizeInfo&)	35
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:104:14:TfLiteStatus tflite::CreateGateParams(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, float, TfLiteType, tflite::GateParameters&)	3
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:151:26:tflite::ArithmeticParams tflite::CreateInterGateMulParams(float, float, float, TfLiteType, int)	3
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:182:15:tflite::CellStateInfo tflite::CreateLstmCellStateInfo(float, float)	3
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:200:15:tflite::CellStateInfo tflite::CreateLstmCellStateInfoFloat(float)	1
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:208:30:tflite::FullyConnectedParams tflite::CreateFCParamsFloat()	1
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:215:24:tflite::GateParameters tflite::CreateGateParamsFloat()	1
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:222:26:tflite::ArithmeticParams tflite::CreateInterGateMulParamsFloat()	1
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:229:14:TfLiteStatus tflite::PrepareGateParametersFloat(TfLiteContext*, const tflite::LstmTensors&, tflite::OpDataLSTM*)	1
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:247:14:TfLiteStatus tflite::PrepareGateParametersInteger(TfLiteContext*, const tflite::LstmTensors&, tflite::OpDataLSTM*)	8
+../tflite/tensorflow/lite/micro/kernels/lstm_eval_common.cc:313:20:tflite::LSTMKernelContents tflite::CreateLSTMKernelContent(TfLiteContext*, TfLiteNode*)	2

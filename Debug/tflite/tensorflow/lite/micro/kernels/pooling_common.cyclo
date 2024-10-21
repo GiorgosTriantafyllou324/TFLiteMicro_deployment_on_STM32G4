@@ -1,0 +1,4 @@
+../tflite/tensorflow/lite/micro/kernels/pooling_common.cc:30:14:TfLiteStatus tflite::CalculateOpDataPooling(const TfLiteContext*, const TfLitePoolParams*, const TfLiteTensor*, const TfLiteTensor*, tflite::OpDataPooling*)	9
+../tflite/tensorflow/lite/micro/kernels/pooling_common.cc:50:14:TfLiteStatus tflite::PoolingPrepare(TfLiteContext*, TfLiteNode*)	11
+../tflite/tensorflow/lite/micro/kernels/pooling_common.cc:88:6:void tflite::AveragePoolingEvalFloat(const TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::OpDataPooling*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	37
+../tflite/tensorflow/lite/micro/kernels/pooling_common.cc:109:6:void tflite::MaxPoolingEvalFloat(TfLiteContext*, TfLiteNode*, TfLitePoolParams*, const tflite::OpDataPooling*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	36

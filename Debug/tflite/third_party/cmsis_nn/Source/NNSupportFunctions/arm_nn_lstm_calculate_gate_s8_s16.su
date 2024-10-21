@@ -1,0 +1,1 @@
+../tflite/third_party/cmsis_nn/Source/NNSupportFunctions/arm_nn_lstm_calculate_gate_s8_s16.c:55:6:arm_nn_lstm_calculate_gate_s8_s16	56	static

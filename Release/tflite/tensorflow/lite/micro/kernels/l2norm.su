@@ -1,0 +1,5 @@
+../tflite/tensorflow/lite/micro/kernels/l2norm.cc:75:7:void* tflite::{anonymous}::L2NormInit(TfLiteContext*, const char*, size_t)	8	static
+../tflite/tensorflow/lite/micro/kernels/l2norm.cc:36:14:TfLiteStatus tflite::{anonymous}::L2NormPrepare(TfLiteContext*, TfLiteNode*)	56	static
+../tflite/tensorflow/lite/micro/kernels/l2norm.cc:81:14:TfLiteStatus tflite::{anonymous}::L2NormEval(TfLiteContext*, TfLiteNode*)	192	static
+../tflite/tensorflow/lite/micro/kernels/l2norm.cc:134:18:TFLMRegistration tflite::Register_L2NORM_REF()	16	static
+../tflite/tensorflow/lite/micro/kernels/l2norm.cc:138:18:TFLMRegistration tflite::Register_L2_NORMALIZATION()	16	static

@@ -1,0 +1,14 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:53:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:58:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	27
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:319:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedInt16(TfLiteContext*, TfLiteNode*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	6
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:484:14:TfLiteStatus tflite::{anonymous}::EvalInt16(TfLiteContext*, TfLiteNode*)	2
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:242:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedInt8(TfLiteContext*, TfLiteNode*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	15
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:461:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	2
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:199:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedInt4(TfLiteContext*, TfLiteNode*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	7
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:432:14:TfLiteStatus tflite::{anonymous}::EvalInt4(TfLiteContext*, TfLiteNode*)	3
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:357:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	44
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:509:18:TFLMRegistration tflite::Register_FULLY_CONNECTED()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:513:18:TFLMRegistration tflite::Register_FULLY_CONNECTED_INT4()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:517:18:TFLMRegistration tflite::Register_FULLY_CONNECTED_INT8()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:521:18:TFLMRegistration tflite::Register_FULLY_CONNECTED_INT16()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc:525:27:TFLMInferenceRegistration tflite::RegisterInference_FULLY_CONNECTED()	1

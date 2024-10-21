@@ -1,0 +1,20 @@
+../tflite/signal/micro/kernels/rfft.cc:112:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*) [with T = short int; void (* apply_func)(void*, const T*, Complex<T>*) = tflm_signal::RfftInt16Apply]	4
+../tflite/signal/micro/kernels/rfft.cc:112:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*) [with T = long int; void (* apply_func)(void*, const T*, Complex<T>*) = tflm_signal::RfftInt32Apply]	4
+../tflite/signal/micro/kernels/rfft.cc:112:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*) [with T = float; void (* apply_func)(void*, const T*, Complex<T>*) = tflm_signal::RfftFloatApply]	4
+../tflite/signal/micro/kernels/rfft.cc:180:14:TfLiteStatus tflite::{anonymous}::EvalAll(TfLiteContext*, TfLiteNode*)	4
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = unsigned char]	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = short unsigned int]	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long unsigned int]	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long long unsigned int]	1
+../tflite/signal/micro/kernels/rfft.cc:56:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t) [with T = short int; size_t (* get_needed_memory_func)(int32_t) = tflm_signal::RfftInt16GetNeededMemory; void* (* init_func)(int32_t, void*, size_t) = tflm_signal::RfftInt16Init]	1
+../tflite/signal/micro/kernels/rfft.cc:56:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t) [with T = long int; size_t (* get_needed_memory_func)(int32_t) = tflm_signal::RfftInt32GetNeededMemory; void* (* init_func)(int32_t, void*, size_t) = tflm_signal::RfftInt32Init]	1
+../tflite/signal/micro/kernels/rfft.cc:56:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t) [with T = float; size_t (* get_needed_memory_func)(int32_t) = tflm_signal::RfftFloatGetNeededMemory; void* (* init_func)(int32_t, void*, size_t) = tflm_signal::RfftFloatInit]	1
+../tflite/signal/micro/kernels/rfft.cc:79:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*) [with T = short int; TfLiteType TfLiteTypeEnum = kTfLiteInt16]	13
+../tflite/signal/micro/kernels/rfft.cc:79:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*) [with T = long int; TfLiteType TfLiteTypeEnum = kTfLiteInt32]	13
+../tflite/signal/micro/kernels/rfft.cc:79:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*) [with T = float; TfLiteType TfLiteTypeEnum = kTfLiteFloat32]	13
+../tflite/signal/micro/kernels/rfft.cc:161:14:TfLiteStatus tflite::{anonymous}::PrepareAll(TfLiteContext*, TfLiteNode*)	4
+../tflite/signal/micro/kernels/rfft.cc:138:7:void* tflite::{anonymous}::InitAll(TfLiteContext*, const char*, size_t)	64
+../tflite/signal/micro/kernels/rfft.cc:203:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT()	3
+../tflite/signal/micro/kernels/rfft.cc:209:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT_FLOAT()	3
+../tflite/signal/micro/kernels/rfft.cc:218:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT_INT16()	3
+../tflite/signal/micro/kernels/rfft.cc:227:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT_INT32()	3

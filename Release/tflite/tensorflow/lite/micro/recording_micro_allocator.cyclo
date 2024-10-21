@@ -1,0 +1,16 @@
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/micro/recording_micro_allocator.h:55:7:virtual tflite::RecordingMicroAllocator::~RecordingMicroAllocator()	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:28:8:static size_t tflite::RecordingMicroAllocator::GetDefaultTailUsage()	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:39:1:tflite::RecordingMicroAllocator::RecordingMicroAllocator(tflite::RecordingSingleArenaBufferAllocator*, tflite::MicroMemoryPlanner*)	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:45:26:static tflite::RecordingMicroAllocator* tflite::RecordingMicroAllocator::Create(uint8_t*, size_t)	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:64:20:tflite::RecordedAllocation tflite::RecordingMicroAllocator::GetRecordedAllocation(tflite::RecordedAllocationType) const	8
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:87:1:const tflite::RecordingSingleArenaBufferAllocator* tflite::RecordingMicroAllocator::GetSimpleMemoryAllocator() const	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:91:6:void tflite::RecordingMicroAllocator::PrintAllocations() const	8
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:125:6:void tflite::RecordingMicroAllocator::PrintRecordedAllocation(tflite::RecordedAllocationType, const char*, const char*) const	9
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:231:20:tflite::RecordedAllocation tflite::RecordingMicroAllocator::SnapshotAllocationUsage() const	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:237:6:void tflite::RecordingMicroAllocator::RecordAllocationUsage(const tflite::RecordedAllocation&, tflite::RecordedAllocation&)	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:117:7:virtual void* tflite::RecordingMicroAllocator::AllocatePersistentBuffer(size_t)	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:140:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateNodeAndRegistrations(const tflite::Model*, tflite::SubgraphAllocations*)	4
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:171:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateTfLiteEvalTensors(const tflite::Model*, tflite::SubgraphAllocations*)	3
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:194:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateVariables(const tflite::SubGraph*, TfLiteEvalTensor*, const int32_t*)	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:208:1:virtual TfLiteTensor* tflite::RecordingMicroAllocator::AllocatePersistentTfLiteTensorInternal()	1
+../tflite/tensorflow/lite/micro/recording_micro_allocator.cc:218:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::PopulateTfLiteTensorFromFlatbuffer(const tflite::Model*, TfLiteTensor*, int, int, bool)	1

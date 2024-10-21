@@ -1,0 +1,1 @@
+../tflite/third_party/cmsis_nn/Source/NNSupportFunctions/arm_nn_vec_mat_mul_result_acc_s8.c:45:6:arm_nn_vec_mat_mul_result_acc_s8	728	static,ignoring_inline_asm

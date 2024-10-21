@@ -1,0 +1,2 @@
+../tflite/tensorflow/lite/micro/kernels/pack.cc:72:14:TfLiteStatus tflite::{anonymous}::PackEval(TfLiteContext*, TfLiteNode*)	104	static
+../tflite/tensorflow/lite/micro/kernels/pack.cc:108:18:TFLMRegistration tflite::Register_PACK()	16	static

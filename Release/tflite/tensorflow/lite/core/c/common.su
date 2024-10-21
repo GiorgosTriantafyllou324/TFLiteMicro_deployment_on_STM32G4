@@ -1,0 +1,11 @@
+../tflite/tensorflow/lite/core/c/common.cc:109:8:size_t TfLiteIntArrayGetSizeInBytes(int)	0	static
+../tflite/tensorflow/lite/core/c/common.cc:113:5:int TfLiteIntArrayEqual(const TfLiteIntArray*, const TfLiteIntArray*)	8	static
+../tflite/tensorflow/lite/core/c/common.cc:117:5:int TfLiteIntArrayEqualsArray(const TfLiteIntArray*, int, const int*)	8	static
+../tflite/tensorflow/lite/core/c/common.cc:136:5:int TfLiteFloatArrayGetSizeInBytes(int)	0	static
+../tflite/tensorflow/lite/core/c/common.cc:341:13:const char* TfLiteTypeGetName(TfLiteType)	0	static
+../tflite/tensorflow/lite/core/c/common.cc:385:16:TfLiteDelegate TfLiteDelegateCreate()	8	static
+../tflite/tensorflow/lite/core/c/common.cc:388:26:TfLiteAllocationStrategy TfLiteTensorGetAllocationStrategy(const TfLiteTensor*)	0	static
+../tflite/tensorflow/lite/core/c/common.cc:412:20:TfLiteRunStability TfLiteTensorGetBufferAddressStability(const TfLiteTensor*)	0	static
+../tflite/tensorflow/lite/core/c/common.cc:436:20:TfLiteRunStability TfLiteTensorGetDataStability(const TfLiteTensor*)	0	static
+../tflite/tensorflow/lite/core/c/common.cc:462:15:TfLiteRunStep TfLiteTensorGetDataKnownStep(const TfLiteTensor*)	0	static
+../tflite/tensorflow/lite/core/c/common.cc:489:15:TfLiteRunStep TfLiteTensorGetShapeKnownStep(const TfLiteTensor*)	0	static

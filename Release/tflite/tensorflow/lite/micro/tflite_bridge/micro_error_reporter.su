@@ -1,0 +1,4 @@
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h:28:3:tflite::MicroErrorReporter::~MicroErrorReporter()	0	static
+../tflite/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc:38:5:virtual int tflite::MicroErrorReporter::Report(const char*, va_list)	8	static
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h:28:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	8	static
+../tflite/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc:31:16:tflite::ErrorReporter* tflite::GetMicroErrorReporter()	0	static

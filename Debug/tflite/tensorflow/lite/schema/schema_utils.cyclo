@@ -1,0 +1,2 @@
+../tflite/tensorflow/lite/schema/schema_utils.cc:45:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const tflite::OperatorCode*)	5
+../tflite/tensorflow/lite/schema/schema_utils.cc:54:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const tflite::OperatorCodeT*)	1

@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/slice.cc:47:14:TfLiteStatus tflite::{anonymous}::SlicePrepare(TfLiteContext*, TfLiteNode*)	40	static
+../tflite/tensorflow/lite/micro/kernels/slice.cc:84:14:TfLiteStatus tflite::{anonymous}::SliceEval(TfLiteContext*, TfLiteNode*)	600	static
+../tflite/tensorflow/lite/micro/kernels/slice.cc:160:18:TFLMRegistration tflite::Register_SLICE()	16	static

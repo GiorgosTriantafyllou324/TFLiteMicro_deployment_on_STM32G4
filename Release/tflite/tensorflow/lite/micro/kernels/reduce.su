@@ -1,0 +1,9 @@
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:31:7:void* tflite::InitReduce(TfLiteContext*, const char*, size_t)	8	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:37:14:TfLiteStatus tflite::PrepareMax(TfLiteContext*, TfLiteNode*)	0	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:42:14:TfLiteStatus tflite::PrepareMeanOrSum(TfLiteContext*, TfLiteNode*)	0	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:47:14:TfLiteStatus tflite::EvalMean(TfLiteContext*, TfLiteNode*)	0	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:52:14:TfLiteStatus tflite::EvalMax(TfLiteContext*, TfLiteNode*)	0	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:57:14:TfLiteStatus tflite::EvalSum(TfLiteContext*, TfLiteNode*)	0	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:62:18:TFLMRegistration tflite::Register_MEAN()	16	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:66:18:TFLMRegistration tflite::Register_REDUCE_MAX()	16	static
+../tflite/tensorflow/lite/micro/kernels/reduce.cc:70:18:TFLMRegistration tflite::Register_SUM()	16	static

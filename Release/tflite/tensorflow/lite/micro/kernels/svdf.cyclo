@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/svdf.cc:35:7:void* tflite::{anonymous}::InitSvdf(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/svdf.cc:40:14:TfLiteStatus tflite::{anonymous}::EvalSvdf(TfLiteContext*, TfLiteNode*)	7
+../tflite/tensorflow/lite/micro/kernels/svdf.cc:101:18:TFLMRegistration tflite::Register_SVDF()	1

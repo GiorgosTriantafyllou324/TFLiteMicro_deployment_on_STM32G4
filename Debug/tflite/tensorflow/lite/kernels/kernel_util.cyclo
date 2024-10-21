@@ -1,0 +1,15 @@
+../tflite/tensorflow/lite/kernels/kernel_util.cc:113:21:const TfLiteTensor* tflite::GetInput(const TfLiteContext*, const TfLiteNode*, int)	5
+../tflite/tensorflow/lite/kernels/kernel_util.cc:118:14:TfLiteStatus tflite::GetInputSafe(const TfLiteContext*, const TfLiteNode*, int, const TfLiteTensor**)	5
+../tflite/tensorflow/lite/kernels/kernel_util.cc:123:15:TfLiteTensor* tflite::GetVariableInput(TfLiteContext*, const TfLiteNode*, int)	7
+../tflite/tensorflow/lite/kernels/kernel_util.cc:130:15:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	5
+../tflite/tensorflow/lite/kernels/kernel_util.cc:140:14:TfLiteStatus tflite::GetOutputSafe(const TfLiteContext*, const TfLiteNode*, int, TfLiteTensor**)	5
+../tflite/tensorflow/lite/kernels/kernel_util.cc:150:21:const TfLiteTensor* tflite::GetOptionalInputTensor(const TfLiteContext*, const TfLiteNode*, int)	5
+../tflite/tensorflow/lite/kernels/kernel_util.cc:292:14:TfLiteStatus tflite::GetQuantizedConvolutionMultipler(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, double*)	4
+../tflite/tensorflow/lite/kernels/kernel_util.cc:329:14:TfLiteStatus tflite::GetQuantizedConvolutionMultipler(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, double*)	2
+../tflite/tensorflow/lite/kernels/kernel_util.cc:389:14:TfLiteStatus tflite::CalculateActivationRangeQuantized(TfLiteContext*, TfLiteFusedActivation, TfLiteTensor*, int32_t*, int32_t*)	17
+../tflite/tensorflow/lite/kernels/kernel_util.cc:215:14:TfLiteStatus tflite::PopulateConvolutionQuantizationParams(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, const TfLiteFusedActivation&, int32_t*, int*, int32_t*, int32_t*, int32_t*, int32_t*, int)	23
+../tflite/tensorflow/lite/kernels/kernel_util.cc:200:14:TfLiteStatus tflite::PopulateConvolutionQuantizationParams(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, const TfLiteFusedActivation&, int32_t*, int*, int32_t*, int32_t*, int32_t*, int32_t*)	19
+../tflite/tensorflow/lite/kernels/kernel_util.cc:413:6:bool tflite::HaveSameShapes(const TfLiteTensor*, const TfLiteTensor*)	1
+../tflite/tensorflow/lite/kernels/kernel_util.cc:524:5:int tflite::TfLiteTypeGetSize(TfLiteType)	2
+../tflite/tensorflow/lite/kernels/kernel_util.cc:572:6:bool tflite::IsMobilePlatform()	1
+../tflite/tensorflow/lite/kernels/kernel_util.cc:583:6:bool tflite::HasUnspecifiedDimension(const TfLiteTensor*)	1

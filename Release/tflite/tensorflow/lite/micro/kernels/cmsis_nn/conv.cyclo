@@ -1,0 +1,14 @@
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:41:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:46:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	29
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:208:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with ActType = signed char; BiasType = long int; TfLiteType type = kTfLiteInt8]	18
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:330:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:208:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with ActType = short int; BiasType = long long int; TfLiteType type = kTfLiteInt16]	18
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:208:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with ActType = signed char; BiasType = long int; TfLiteType type = kTfLiteInt4]	18
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:308:14:TfLiteStatus tflite::{anonymous}::EvalInt4(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:485:18:TFLMRegistration tflite::Register_CONV_2D()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:489:18:TFLMRegistration tflite::Register_CONV_2D_INT4()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:493:18:TFLMRegistration tflite::Register_CONV_2D_INT8()	1
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:497:18:TFLMRegistration tflite::Register_CONV_2D_INT16()	1
+C:/Users/giorg/Desktop/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/integer_ops/conv.h:142:13:void tflite::reference_integer_ops::ConvPerChannel(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const AccumScalar*, const tflite::RuntimeShape&, int16_t*) [with AccumScalar = long int]	70
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:391:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	53
+../tflite/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc:352:14:TfLiteStatus tflite::{anonymous}::EvalInt16x8(TfLiteContext*, TfLiteNode*)	9

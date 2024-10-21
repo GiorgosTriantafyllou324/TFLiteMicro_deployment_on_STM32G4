@@ -1,0 +1,2 @@
+../tflite/tensorflow/lite/micro/kernels/floor.cc:29:14:TfLiteStatus tflite::{anonymous}::FloorEval(TfLiteContext*, TfLiteNode*)	88	static
+../tflite/tensorflow/lite/micro/kernels/floor.cc:44:18:TFLMRegistration tflite::Register_FLOOR()	16	static

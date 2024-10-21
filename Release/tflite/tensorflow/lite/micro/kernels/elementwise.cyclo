@@ -1,0 +1,23 @@
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:227:7:void* tflite::{anonymous}::ElementWiseAbsRsqrtInit(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:79:14:TfLiteStatus tflite::{anonymous}::GenericPrepare(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::{anonymous}::IsNumericSupportedType]	9
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:103:14:TfLiteStatus tflite::{anonymous}::PrepareAbsRsqrt(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::{anonymous}::IsAbsSupportedType; int op_nameid = 0]	26
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:103:14:TfLiteStatus tflite::{anonymous}::PrepareAbsRsqrt(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::{anonymous}::IsRsqrtSupportedType; int op_nameid = 1]	25
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:283:14:TfLiteStatus tflite::{anonymous}::validate_input_func(TfLiteContext*, TfLiteNode*, T) [with T = short int]	2
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:368:14:TfLiteStatus tflite::{anonymous}::LogicalNotEval(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:364:14:TfLiteStatus tflite::{anonymous}::SquareEval(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:326:14:TfLiteStatus tflite::{anonymous}::SinEval(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:334:14:TfLiteStatus tflite::{anonymous}::LogEval(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:330:14:TfLiteStatus tflite::{anonymous}::CosEval(TfLiteContext*, TfLiteNode*)	4
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:338:14:TfLiteStatus tflite::{anonymous}::SqrtEval(TfLiteContext*, TfLiteNode*)	6
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:283:14:TfLiteStatus tflite::{anonymous}::validate_input_func(TfLiteContext*, TfLiteNode*, T) [with T = signed char]	2
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:292:14:TfLiteStatus tflite::{anonymous}::AbsEval(TfLiteContext*, TfLiteNode*)	35
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:342:14:TfLiteStatus tflite::{anonymous}::RsqrtEval(TfLiteContext*, TfLiteNode*)	61
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:79:14:TfLiteStatus tflite::{anonymous}::GenericPrepare(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::{anonymous}::IsLogicalSupportedType]	9
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:374:18:TFLMRegistration tflite::Register_ABS()	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:380:18:TFLMRegistration tflite::Register_SIN()	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:385:18:TFLMRegistration tflite::Register_COS()	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:390:18:TFLMRegistration tflite::Register_LOG()	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:395:18:TFLMRegistration tflite::Register_SQRT()	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:400:18:TFLMRegistration tflite::Register_RSQRT()	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:406:18:TFLMRegistration tflite::Register_SQUARE()	1
+../tflite/tensorflow/lite/micro/kernels/elementwise.cc:411:18:TFLMRegistration tflite::Register_LOGICAL_NOT()	1

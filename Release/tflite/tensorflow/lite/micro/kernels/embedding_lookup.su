@@ -1,0 +1,4 @@
+../tflite/tensorflow/lite/micro/kernels/embedding_lookup.cc:123:14:TfLiteStatus tflite::{anonymous}::EvalSimple(const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	32	static
+../tflite/tensorflow/lite/micro/kernels/embedding_lookup.cc:181:14:TfLiteStatus tflite::{anonymous}::EmbeddingLookUpEval(TfLiteContext*, TfLiteNode*)	48	static
+../tflite/tensorflow/lite/micro/kernels/embedding_lookup.cc:68:14:TfLiteStatus tflite::{anonymous}::EmbeddingLookUpPrepare(TfLiteContext*, TfLiteNode*)	88	static
+../tflite/tensorflow/lite/micro/kernels/embedding_lookup.cc:209:18:TFLMRegistration tflite::Register_EMBEDDING_LOOKUP()	16	static

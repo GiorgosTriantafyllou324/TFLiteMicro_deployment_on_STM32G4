@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/cast.cc:28:14:TfLiteStatus tflite::{anonymous}::CastPrepare(TfLiteContext*, TfLiteNode*)	40	static
+../tflite/tensorflow/lite/micro/kernels/cast.cc:80:14:TfLiteStatus tflite::{anonymous}::CastEval(TfLiteContext*, TfLiteNode*)	72	static
+../tflite/tensorflow/lite/micro/kernels/cast.cc:116:18:TFLMRegistration tflite::Register_CAST()	16	static

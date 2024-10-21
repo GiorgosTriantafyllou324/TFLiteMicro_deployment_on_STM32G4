@@ -1,0 +1,4 @@
+../tflite/tensorflow/lite/micro/kernels/resize_bilinear.cc:33:14:TfLiteStatus tflite::{anonymous}::ResizeBilinearPrepare(TfLiteContext*, TfLiteNode*)	11
+../tflite/tensorflow/lite/micro/kernels/resize_bilinear.cc:112:18:TFLMRegistration tflite::Register_RESIZE_BILINEAR()	1
+C:/Users/giorg/Desktop/opt_micro_tflite/opt_micro_tflite/tflite/tensorflow/lite/kernels/internal/reference/resize_bilinear.h:136:13:void tflite::reference_ops::ResizeBilinearInteger(const tflite::ResizeBilinearParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = signed char]	90
+../tflite/tensorflow/lite/micro/kernels/resize_bilinear.cc:69:14:TfLiteStatus tflite::{anonymous}::ResizeBilinearEval(TfLiteContext*, TfLiteNode*)	88

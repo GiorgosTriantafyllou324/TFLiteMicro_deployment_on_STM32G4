@@ -1,0 +1,1 @@
+../tflite/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s4_s16.c:39:9:arm_nn_mat_mult_kernel_s4_s16	2128	static,ignoring_inline_asm

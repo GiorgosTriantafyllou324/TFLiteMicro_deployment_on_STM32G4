@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/hard_swish.cc:33:7:void* tflite::{anonymous}::HardSwishInit(TfLiteContext*, const char*, size_t)	1
+../tflite/tensorflow/lite/micro/kernels/hard_swish.cc:38:14:TfLiteStatus tflite::{anonymous}::HardSwishEval(TfLiteContext*, TfLiteNode*)	62
+../tflite/tensorflow/lite/micro/kernels/hard_swish.cc:70:18:TFLMRegistration tflite::Register_HARD_SWISH()	1

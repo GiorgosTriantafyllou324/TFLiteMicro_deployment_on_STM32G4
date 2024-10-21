@@ -1,0 +1,2 @@
+../tflite/tensorflow/lite/array.cc:21:6:void tflite::array_internal::TfLiteArrayDeleter::operator()(TfLiteIntArray*)	0	static
+../tflite/tensorflow/lite/array.cc:26:6:void tflite::array_internal::TfLiteArrayDeleter::operator()(TfLiteFloatArray*)	0	static

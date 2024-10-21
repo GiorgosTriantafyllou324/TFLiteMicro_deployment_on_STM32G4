@@ -1,0 +1,21 @@
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:31:1:tflite::LstmTensors::LstmTensors(TfLiteContext*, TfLiteNode*)	24	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:41:1:tflite::LstmTensors::~LstmTensors()	16	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:55:14:TfLiteStatus tflite::LstmTensors::ValidateTensorStatus(TfLiteContext*) const	32	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:110:6:void tflite::lstm_internal::AddElementWise(const int16_t*, const int16_t*, int, int, int16_t*)	56	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:122:6:void tflite::lstm_internal::AddElementWise(const float*, const float*, int, int, float*)	24	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:132:6:void tflite::lstm_internal::Sigmoid(const tflite::RuntimeShape&, int16_t*)	16	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:140:6:void tflite::lstm_internal::Sigmoid(const tflite::RuntimeShape&, float*)	32	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:144:6:void tflite::lstm_internal::Tanh(int32_t, const tflite::RuntimeShape&, int16_t*, const tflite::RuntimeShape&, int16_t*)	40	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:159:6:void tflite::lstm_internal::Tanh(int32_t, const tflite::RuntimeShape&, float*, const tflite::RuntimeShape&, float*)	16	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:167:6:void tflite::lstm_internal::Mul(const tflite::RuntimeShape&, const tflite::ArithmeticParams&, const int16_t*, const int16_t*, int8_t*)	32	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:175:6:void tflite::lstm_internal::Mul(const tflite::RuntimeShape&, const tflite::ArithmeticParams&, const int16_t*, const int16_t*, int16_t*)	32	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:183:6:void tflite::lstm_internal::Mul(const tflite::RuntimeShape&, const tflite::ArithmeticParams&, const float*, const float*, float*)	16	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:190:6:void tflite::lstm_internal::FullyConnected(const tflite::FullyConnectedParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int16_t*)	88	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:200:6:void tflite::lstm_internal::FullyConnected(const tflite::FullyConnectedParams&, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int64_t*, const tflite::RuntimeShape&, int16_t*)	96	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:210:6:void tflite::lstm_internal::FullyConnected(const tflite::FullyConnectedParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	56	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:220:6:void tflite::lstm_internal::Clipping(int, const tflite::CellStateInfo&, int16_t*)	4	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:229:6:void tflite::lstm_internal::Clipping(int, const tflite::CellStateInfo&, float*)	0	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:239:6:void tflite::lstm_internal::LstmStepManager::UpdateTime()	8	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:258:6:void tflite::lstm_internal::LstmStepManager::UpdateBatch()	8	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:272:14:tflite::RuntimeShape tflite::lstm_internal::LstmStepManager::InputShape() const	8	static
+../tflite/tensorflow/lite/micro/kernels/lstm_eval.cc:284:14:tflite::RuntimeShape tflite::lstm_internal::LstmStepManager::StateShape() const	8	static

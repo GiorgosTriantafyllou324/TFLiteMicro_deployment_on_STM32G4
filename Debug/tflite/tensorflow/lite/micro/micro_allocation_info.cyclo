@@ -1,0 +1,9 @@
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:37:6:void tflite::AllocationInfoBuilder::UpdateFirstCreated(tflite::AllocationInfo*, int)	2
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:48:6:void tflite::AllocationInfoBuilder::UpdateLastUsed(tflite::AllocationInfo*, int)	1
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:103:14:TfLiteStatus tflite::AllocationInfoBuilder::CreateAllocationInfo(int)	6
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:146:14:TfLiteStatus tflite::AllocationInfoBuilder::FreeAllocationInfo()	1
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:154:14:TfLiteStatus tflite::AllocationInfoBuilder::ValidateSubgraph(const tflite::SubGraph*, TfLiteEvalTensor*)	10
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:178:14:TfLiteStatus tflite::AllocationInfoBuilder::InitializeAllocationInfo(const int32_t*, tflite::SubgraphAllocations*)	20
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:233:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkAllocationLifetimes(int, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	39
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:54:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkSubgraphLifetimesIfNecessary(const tflite::Operator*, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	46
+../tflite/tensorflow/lite/micro/micro_allocation_info.cc:338:14:TfLiteStatus tflite::AllocationInfoBuilder::GetOfflinePlannedOffsets(const int32_t**)	15

@@ -1,0 +1,4 @@
+../tflite/signal/micro/kernels/pcan.cc:45:7:void* tflite::tflm_signal::Init(TfLiteContext*, const char*, size_t)	40	static
+../tflite/signal/micro/kernels/pcan.cc:91:14:TfLiteStatus tflite::tflm_signal::Eval(TfLiteContext*, TfLiteNode*)	48	static
+../tflite/signal/micro/kernels/pcan.cc:55:14:TfLiteStatus tflite::tflm_signal::Prepare(TfLiteContext*, TfLiteNode*)	64	static
+../tflite/signal/micro/kernels/pcan.cc:128:19:TFLMRegistration* tflite::tflm_signal::Register_PCAN()	24	static

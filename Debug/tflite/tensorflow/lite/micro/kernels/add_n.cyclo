@@ -1,0 +1,3 @@
+../tflite/tensorflow/lite/micro/kernels/add_n.cc:136:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	20
+../tflite/tensorflow/lite/micro/kernels/add_n.cc:194:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	40
+../tflite/tensorflow/lite/micro/kernels/add_n.cc:211:18:TFLMRegistration tflite::Register_ADD_N()	1

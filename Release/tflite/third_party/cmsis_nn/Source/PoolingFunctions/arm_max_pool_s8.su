@@ -1,0 +1,3 @@
+../tflite/third_party/cmsis_nn/Source/PoolingFunctions/arm_max_pool_s8.c:34:13:compare_and_replace_if_larger_q7	72	static
+../tflite/third_party/cmsis_nn/Source/PoolingFunctions/arm_max_pool_s8.c:97:13:clamp_output	56	static
+../tflite/third_party/cmsis_nn/Source/PoolingFunctions/arm_max_pool_s8.c:163:21:arm_max_pool_s8	144	static
