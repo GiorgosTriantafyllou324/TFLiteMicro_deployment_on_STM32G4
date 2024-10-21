@@ -13,7 +13,7 @@ The CNN was trained based on the following Jupyter Notebook: [ Convolutional Neu
 The model was then converted to a C array in order to be deployed to the MCU.
 Some images from the CIFAR-10 dataset were also converted to a C array to test the inference of the model on the MCU. The achieved accuracy on the model is 88%.
 
-The code runs continuously through the images loaded in the flash memory and classifies them to a class. The results of each image (prediction, ground truth label, total latency and latency for each layer in the network) are sent through the USB (virtual comm port) and can be read from the PC connected using a Serial reader.
+The code runs continuously through the images loaded in the flash memory and classifies them to a class. The results of each image (prediction, ground truth label, total latency and latency for each layer in the network) are sent through the USB (virtual comm port) and can be read from the connected PC using a serial reader.
 
 
 The Project focuses on the reduction of the memory footprint and the latency to process each image. Specifically, the weights have been quantized to 8 bits (from the original 32 bits) and the -O3 compiler optimization option is chosen from the STM32CubeIDE. Also, the optimized kernels of CMSIS-NN have been put into use with the flag: 
